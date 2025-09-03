@@ -142,3 +142,7 @@ const database = {
     }
   ]
 }
+
+export const getBusinesses = () => {
+    return structuredClone(database.businesses);
+}
